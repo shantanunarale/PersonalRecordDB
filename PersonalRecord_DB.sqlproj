@@ -10,6 +10,9 @@
   <ItemGroup>
     <PostDeploy Include="Encryption.PostDeploy.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PostDeploy\Static_Insert_VehicleDocumentType.PostDeploy.sql" />
+  </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
