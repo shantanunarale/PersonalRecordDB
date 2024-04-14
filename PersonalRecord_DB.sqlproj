@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PostDeploy Include="Encryption.PostDeploy.sql" />
+    <None Include="PostDeploy\Static_Insert_DocumentType.PostDeploy.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PostDeploy\Static_Insert_VehicleDocumentType.PostDeploy.sql" />
