@@ -7,7 +7,7 @@ CREATE TABLE [dbo].[PersonalDocuments] (
     PRIMARY KEY CLUSTERED ([PersonalDocumentId] ASC),
     FOREIGN KEY ([DocumentTypeId]) REFERENCES [dbo].[DocumentType] ([DocumentTypeId]),
     FOREIGN KEY ([MemberId]) REFERENCES [dbo].[Members] ([MemberId]),
-    UNIQUE NONCLUSTERED ([DocumentNumber] ASC)
+    UNIQUE NONCLUSTERED ([MemberId] ASC, [DocumentNumber] ASC)
 );
 
 

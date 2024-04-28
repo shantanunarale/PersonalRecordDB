@@ -10,5 +10,6 @@ VALUES('Aadhar', 'Aadhar Card issued by UIDAI'),
 ('Grad', 'Graduation Mark sheet and Diploma.'),
 ('PG', 'Post Graduation Mark sheet and Diploma.'),
 ('DOB', 'Date of Birth Certificate.'),
-('Misc', 'Miscellaneous Documents.')
+('Misc', 'Miscellaneous Documents.'),
+('Sign', 'Signature Image')
 
